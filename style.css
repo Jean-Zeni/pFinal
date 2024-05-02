@@ -1,0 +1,131 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    border-style: double;
+    background-color: rgb(20, 20, 20);
+    color: lawngreen;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    height: 110px;
+    z-index: 40;
+
+}
+
+.barraLateral {
+
+    display: grid;
+    position: sticky;
+    width: 200px;
+    height: 80vh;
+    top: 20%;
+    border-style: dotted;
+    border-radius: 20px;
+    color: lawngreen;
+
+    background-color: rgb(20, 20, 20);
+    z-index: 30;
+
+}
+
+
+
+li {
+    position: relative;
+    right: 45px;
+    bottom: 110px;    
+    list-style: none;
+    margin: 10px;
+    width: 170px;
+
+}
+
+#sect1 {
+    position: relative;
+    left: 150px;
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    margin-right: 0;
+    padding: 10px;
+    width: 1000px;
+    border-radius: 10px;
+    border-style: dotted;
+    font-size: 25px;
+
+    #minhaFoto {
+        position: relative;
+        width: 300px;
+        left: 500px;
+        bottom: 250px;
+        margin: 0;
+        border-radius: 20%;
+        border-style: dashed;
+    }
+}
+
+#sect2 {
+    position: relative;
+    left: 150px;
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    margin-right: 0;
+    padding: 10px;
+    width: 1000px;
+    border-radius: 10px;
+    border-style: dotted;
+
+    #imgSect2{
+        width: 900px;
+        border-style: dashed;
+    }
+}
+
+#sect3 {
+    position: relative;
+    left: 150px;
+    margin: 10px;
+    margin-right: 0;
+    padding: 10px;
+    width: 1000px;
+    border-radius: 10px;
+    border-style: dotted;
+    background-color: rgb(20, 20, 20);
+}
+
+main {
+    position: relative;
+    left: 80px;
+    bottom: 50vh;
+    max-width: 1200px;
+    color: lawngreen;
+}
+
+button {
+    background-color: black;
+    color: lawngreen;
+    font-family: "Chakra Petch", sans-serif;
+    margin-right: 40px;
+    border-radius: 5%;
+
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+
+}
+
+button:hover{
+    background-color: lawngreen;
+    color: black;
+    cursor: pointer;
+}
